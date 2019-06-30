@@ -21,6 +21,7 @@ p,
     position: fixed;
     left: 0;
     top: 0;
+    border-bottom: 2px solid #cccccc;
 }
 
 
@@ -56,6 +57,41 @@ p,
 
 .navlist:hover {
     color:black;
+}
+
+/* About Me Styles */
+ 
+.aboutme {
+    width: 960px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.pagetitle {
+    color: #4aaaa5;
+    font-size: 1rem;
+}
+
+/* Portfolio Styles */
+
+/* Contact Styles */
+
+/* Footer Styles */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+.foottext {
+    padding-top: 12px;
 }
 
 /* Id styles */
