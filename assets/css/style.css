@@ -100,6 +100,82 @@ p,
     font-size: 2rem;
 }
 
+.portbox1 {
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/john.png");
+    opacity: 0.7;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.portbox2 {
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/dice.png");
+    opacity: 0.7;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.portbox3 {
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/drums.png");
+    opacity: 0.7;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.portbox4 {
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/ipad-startup.jpg");
+    opacity: 0.7;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+/* add hover effect on portbox1-4 */
+.portbox1:hover {
+    opacity: 1;
+} 
+
+.portbox2:hover {
+    opacity: 1;
+}
+
+.portbox3:hover {
+    opacity: 1;
+}
+    
+.portbox4:hover {
+    opacity: 1;
+}
+
+
+.pbtitle {
+    position: relative;
+    top: 205px;
+    width: 100%;
+    height: 45px;
+    background-color: #4aaaa5;
+    
+}
+
+.pbttext {
+    color: #ffffff;
+    padding: 5px 0 0 30px;
+}
+
 /* Contact Styles */
 
 .contact {
@@ -122,7 +198,7 @@ p,
 
 .foottext {
     padding-top: 12px;
-    color: white;
+    color: #bbbbbb;
 }
 
 /* Id styles */
