@@ -11,7 +11,8 @@ h1,
 p, 
  a {
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
- }
+     color: #777777;   
+    }
 
 /* class styles */
 .headingbar {
@@ -52,19 +53,24 @@ p,
 .navlist {
     margin: auto 10px;
     text-decoration: none;
-    color: #777777;
 }
 
 .navlist:hover {
     color:black;
 }
 
-/* About Me Styles */
- 
-.aboutme {
+.wrapper {
     width: 960px;
     margin: 100px auto;
     background-color: white;
+    border: 1px solid #ddd;
+}
+
+
+/* About Me Styles */
+ 
+.aboutme {
+    padding: 10px;
 }
 
 .pagetitle {
@@ -72,9 +78,33 @@ p,
     font-size: 1rem;
 }
 
+.img {
+    float:left;
+    margin: 10px 15px 8px 0;
+    border: 1px solid #ddd;
+}
+
+.floattext {
+    margin-top: 15px;
+}
+
 /* Portfolio Styles */
 
+
+.portfolio {
+    padding: 10px;
+}
+
+.ptitle {
+    color: #4aaaa5;
+    font-size: 2rem;
+}
+
 /* Contact Styles */
+
+.contact {
+    padding: 10px;
+}
 
 /* Footer Styles */
 
@@ -92,6 +122,7 @@ p,
 
 .foottext {
     padding-top: 12px;
+    color: white;
 }
 
 /* Id styles */
