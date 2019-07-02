@@ -82,6 +82,7 @@ p,
     float:left;
     margin: 10px 15px 8px 0;
     border: 1px solid #ddd;
+    border-radius: 100%;
 }
 
 .floattext {
