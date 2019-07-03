@@ -14,7 +14,7 @@ p,
      color: #777777;   
     }
 
-/* class styles */
+/* header class styles */
 .headingbar {
     background-color: white;
     width: 100%;
@@ -87,6 +87,14 @@ p,
 
 .floattext {
     margin-top: 15px;
+}
+
+.biolink {
+    text-decoration: none;
+}
+
+.biolink:hover {
+    color:black;
 }
 
 /* Portfolio Styles */
