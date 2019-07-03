@@ -101,6 +101,8 @@ p,
     flex-flow: row wrap;
     justify-content: flex-start;
 }
+/* This flex doesn't work for making the box responsive, 
+it only really affects the layout(because its parent isn't flex?) */
 
 .ptitle {
     color: #4aaaa5;
@@ -181,7 +183,7 @@ p,
 
 .pbttext {
     color: #ffffff;
-    padding-top: 10px;
+    padding-top: 13px;
     text-align: center;
     font-weight: 600;
 }
