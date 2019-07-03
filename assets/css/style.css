@@ -93,12 +93,19 @@ p,
 
 
 .portfolio {
-    padding: 10px;
+    padding: 10px; 
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .ptitle {
     color: #4aaaa5;
     font-size: 2rem;
+
 }
 
 .portbox1 {
@@ -175,6 +182,8 @@ p,
 .pbttext {
     color: #ffffff;
     padding: 5px 0 0 30px;
+    text-align: center;
+    font-weight: 400;
 }
 
 /* Contact Styles */
@@ -201,5 +210,3 @@ p,
     padding-top: 12px;
     color: #bbbbbb;
 }
-
-/* Id styles */
